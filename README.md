@@ -1,13 +1,13 @@
 # ESLint Shareable Configs
 
-This repository contains the standard ESLint shareable configuration for CNCSC projects.
+This repository contains the standard ESLint shareable configuration for Bedrock projects.
 
 ## Referencing this Configuration
 
 You can reference this config by installing the NPM package in your project:
 
 ```bash
-npm install --save-dev @cncsc/eslint-config
+npm install --save-dev @bdrk/eslint-config
 ```
 
 Then update the project's `.eslintrc.json` file to extend this configuration:
@@ -15,14 +15,14 @@ Then update the project's `.eslintrc.json` file to extend this configuration:
 **For JavaScript projects:**
 ```json
 {
-  "extends": "@cncsc/eslint-config"
+  "extends": "@bdrk/eslint-config"
 }
 ```
 
 **For TypeScript projects:**
 ```json
 {
-  "extends": "@cncsc/eslint-config/typescript"
+  "extends": "@bdrk/eslint-config/typescript"
 }
 ```
 
