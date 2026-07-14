@@ -2,3 +2,6 @@
 .github/
 .releaserc.json
 azure-pipelines.yml
+docs/
+eslint.config.js
+.claude/
